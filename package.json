@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "node server/index.js",
     "posttest": "npm run lint",
     "test": "mocha test/*.spec.js"
   },
@@ -28,7 +28,7 @@
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
     "mocha": "^5.2.0",
-    "morgan": "^1.9.1"
+    
   },
   "repository": {
     "type": "",
